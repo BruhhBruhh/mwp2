@@ -4,41 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>My Webpage - 2024</title>
     <style>
         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
             text-align: center;
+            padding: 1em;
         }
 
         nav {
-            background-color: #333;
-            padding: 10px;
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
         }
 
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        main {
+            text-align: center;
+            padding: 2em;
         }
 
         img {
-            display: block;
-            margin: 50px auto; /* Adjust the margin value as needed */
             max-width: 100%;
             height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <h1>My Webpage - 2024</h1>
+    </header>
+
     <nav>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
     </nav>
 
-    <img src="images/8DE74338-7E55-499B-B381-FD3F2359B2D3_1_105_c.jpeg" alt="Centered Image">
-
+    <main>
+        <img src="images/8DE74338-7E55-499B-B381-FD3F2359B2D3_1_105_c.jpeg" alt="Centered Image">
+    </main>
 </body>
 
 </html>
